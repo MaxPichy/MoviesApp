@@ -39,7 +39,7 @@ export const movies: Movies[] = [
         {
         id: '4',
         name: 'Hunger Games',
-        genres: ['Distopic', 'Drama', 'Action'],
+        genres: ['Distopia', 'Drama', 'Action'],
         duration: '12:30:00',
         year: 2012,
         review: 8.8,
