@@ -4,8 +4,8 @@ export type Movies = {
   genres: string[];
   duration: string;
   year: number;
-  review: number;
-  description: string;
+  rate: number;
+  general_review: string;
 };
 
 export const movies: Movies[] = [
@@ -15,8 +15,8 @@ export const movies: Movies[] = [
     genres: ['Anime', 'Magic', 'Shonen'],
     duration: '15:12:00',
     year: 2023,
-    review: 10.0,
-    description:
+    rate: 10.0,
+    general_review:
       'Amazing anime, worth of all minutes you spend on it. Brings all kinds of reflections about life and time.',
   },
   {
@@ -25,8 +25,8 @@ export const movies: Movies[] = [
     genres: ['Anime', 'Seinen', 'Action'],
     duration: '25:36:00',
     year: 2009,
-    review: 10.0,
-    description: 'Absolute cinema. Best of all times they say. A must if you have good taste.',
+    rate: 10.0,
+    general_review: 'Absolute cinema. Best of all times they say. A must if you have good taste.',
   },
   {
     id: '3',
@@ -34,8 +34,8 @@ export const movies: Movies[] = [
     genres: ['Anime', 'Seinen', 'Investigation'],
     duration: '',
     year: 2026,
-    review: 8.2,
-    description:
+    rate: 8.2,
+    general_review:
       'A classic. May be full of script fails, but still an icon if you talking about y2k fashion and culture.',
   },
   {
@@ -44,8 +44,8 @@ export const movies: Movies[] = [
     genres: ['Distopia', 'Drama', 'Action'],
     duration: '12:30:00',
     year: 2012,
-    review: 8.8,
-    description: 'A great distopia. So brutal as actual. Very iconic if i must say.',
+    rate: 8.8,
+    general_review: 'A great distopia. So brutal as actual. Very iconic if i must say.',
   },
   {
     id: '5',
@@ -53,8 +53,8 @@ export const movies: Movies[] = [
     genres: ['Anime', 'Seinen', 'Distopia'],
     duration: '34:50:00',
     year: 2013,
-    review: 9.2,
-    description:
+    rate: 9.2,
+    general_review:
       'The trama is complex and well written. No matter how many times you watch, you always notice something new.',
   },
 ];
