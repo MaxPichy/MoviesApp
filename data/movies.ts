@@ -1,7 +1,9 @@
+import { ImageSourcePropType } from "react-native";
+
 export type Movies = {
   id: string;
   name: string;
-  image: string;
+  image: ImageSourcePropType;
   genres: string[];
   duration: string;
   year: number;
@@ -14,7 +16,7 @@ export const movies: Movies[] = [
   {
     id: '1',
     name: 'Frieren',
-    image: '../assets/frieren.jpg',
+    image: require('../assets/images/frieren.jpg'),
     genres: ['Anime', 'Magic', 'Shonen'],
     duration: '15:12:00',
     year: 2023,
@@ -26,7 +28,7 @@ export const movies: Movies[] = [
   {
     id: '2',
     name: 'Fullmetal Alchemist Brotherhood',
-    image: '../assets/fullmetal_alchemist_brotherhood.jpg',
+    image: require('../assets/images/fullmetal_alchemist_brotherhood.jpg'),
     genres: ['Anime', 'Seinen', 'Action'],
     duration: '25:36:00',
     year: 2009,
@@ -37,7 +39,7 @@ export const movies: Movies[] = [
   {
     id: '3',
     name: 'Death Note',
-    image: '../assets/death_note.jpg',
+    image: require('../assets/images/death_note.jpg'),
     genres: ['Anime', 'Seinen', 'Investigation'],
     duration: '',
     year: 2026,
@@ -49,7 +51,7 @@ export const movies: Movies[] = [
   {
     id: '4',
     name: 'Banana Fish',
-    image: '../assets/banana_fish.jpg',
+    image: require('../assets/images/banana_fish.jpg'),
     genres: ['Anime', 'Crime', 'Investigation'],
     duration: '09:17:00',
     year: 2018,
@@ -60,7 +62,7 @@ export const movies: Movies[] = [
   {
     id: '5',
     name: 'Shingeki no Kyojin',
-    image: '../assets/shingeki_no_kyojin.jpg',
+    image: require('../assets/images/shingeki_no_kyojin.jpg'),
     genres: ['Anime', 'Seinen', 'Distopia'],
     duration: '34:50:00',
     year: 2013,
@@ -72,7 +74,7 @@ export const movies: Movies[] = [
   {
     id: '6',
     name: 'Dungeon Meshi',
-    image: '../assets/dungeon_meshi.jpg',
+    image: require('../assets/images/dungeon_meshi.jpg'),
     genres: ['Anime', 'Shonen', 'Medieval'],
     duration: '10:32:00',
     year: 2014,
